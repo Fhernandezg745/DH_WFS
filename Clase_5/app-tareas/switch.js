@@ -42,3 +42,12 @@ let bicicletaConRodadoGrande =
 console.log(
   "La bicicleta con  mayor rodado es la " + bicicletaConRodadoGrande.marca
 );
+
+function noParesDeContarImparesHasta(numero) {
+  let impares = 0;
+  for (let index = 0; (index = numero); index++) {
+    if (index % 2 != 0) {
+      impares += 1;
+    }
+  }
+}
